@@ -50,7 +50,9 @@ body {
 /* home */
 
 .home-section.active,
-.project-section.active {
+.project-section.active,
+.about-section.active,
+.contact-section.active {
   position: relative;
   opacity: 1;
   z-index: 8;
@@ -191,8 +193,9 @@ body {
   width: 100%;
   min-height: 100vh;
   padding: 150px 100px 0;
-  position: relative;
+  position: fixed;
   top: 0;
+  opacity: 0;
   transition: 1s;
 }
 
@@ -387,4 +390,32 @@ body {
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 20px;
+}
+
+.contact-section {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 1s;
+  padding: 100px 150px;
+  height: 100vh;
+  display: grid;
+  gap: 50px;
+  color: #fff;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.form-container {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 0.7fr 1.3fr;
+  background: red;
 }
