@@ -8,6 +8,9 @@
   <title>Portifolio</title>
 
   <script src="https://kit.fontawesome.com/3b50787ee3.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat:wght@200;400;600&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 
 </head>
@@ -28,10 +31,10 @@
 
   <section class="home-section active">
     <div>
-      <h1 class="hero-heading">Web Developer & <br>Front-End</h1>
-      <h2 class="subtitulo">Vinicius Caetano</h2>
+      <h1 class="hero-heading">Web Developer <span class="ponto">&</span><br>Front-End<span class="ponto">.</span></h1>
+      <h2 class="subtitulo animate-character">Vinicius Caetano</h2>
     </div>
-    <img src="imagem1.jpg" class="home-img" alt="" width="2500" height="1020">
+    <img src="img/imagem1.jpg" class="home-img" alt="" width="2500" height="1020">
   </section>
 
   <!--Projetos -->
@@ -39,29 +42,29 @@
     <h1 class="project-heading">Alguns dos meus Projetos</h1>
     <div class="project-container">
       <div class="project-card">
-        <img src="imagem1.jpg" class="project-img" alt="" width="500px">
+        <img src="img/bikcraft.png" class="project-img" alt="" width="500px">
         <div class="project-content">
-          <h1 class="project-title">Projeto 1</h1>
-          <p class="project-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non unde possimus corporis ducimus ut aspernatur quasi voluptatibus eaque, ullam voluptas id itaque blanditiis! Fugiat sed itaque eligendi omnis deserunt.</p>
+          <h1 class="project-title">Bikcraft</h1>
+          <p class="project-info"> Projeto final de um curso de Html e CSS, uma loja de bicicletas elétricas com opções de seguros e formulário para contato</p>
           <div class="project-btn-grp">
-            <button class="project-btn github">github repo</button>
-            <button class="project-btn live">see live</button>
+            <button class="project-btn github"><a href="https://github.com/vinigdsc/bikcraft">GitHub</a></button>
+            <button class="project-btn live"><a href="https://bikcraft.net/">Veja Online</a></button>
           </div>
         </div>
       </div>
       <div class="project-card">
-        <img src="imagem1.jpg" class="project-img" alt="" width="500px">
+        <img src="img/memoria.png" class="project-img" alt="" width="500px">
         <div class="project-content">
-          <h1 class="project-title">Projeto 1</h1>
-          <p class="project-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non unde possimus corporis ducimus ut aspernatur quasi voluptatibus eaque, ullam voluptas id itaque blanditiis! Fugiat sed itaque eligendi omnis deserunt.</p>
+          <h1 class="project-title">Jogo da Memória</h1>
+          <p class="project-info"> Jogo da memoria com tema do Rick e Morty, feito em JavaScript, HTML e CSS, tem funções como: gravar o nome do usuario, pontuação e tempo</p>
           <div class="project-btn-grp">
-            <button class="project-btn github">github repo</button>
-            <button class="project-btn live">see live</button>
+            <button class="project-btn github"><a href="https://github.com/vinigdsc/jogo_memoria">GitHub</a></button>
+            <button class="project-btn live">Veja Online</button>
           </div>
         </div>
       </div>
       <div class="project-card">
-        <img src="imagem1.jpg" class="project-img" alt="" width="500px">
+        <img src="img/Academia.png" class="project-img" alt="" width="500px">
         <div class="project-content">
           <h1 class="project-title">Projeto 1</h1>
           <p class="project-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non unde possimus corporis ducimus ut aspernatur quasi voluptatibus eaque, ullam voluptas id itaque blanditiis! Fugiat sed itaque eligendi omnis deserunt.</p>
@@ -174,11 +177,20 @@
   <!--Contato-->
   <section class="contact-section">
     <div class="container">
-      <h1 class="titulo-contato"> Fale comigo.</h1>
+      <h1 class="titulo-contato"> Fale comigo<span class="ponto">.</span> </h1>
       <h2 class="subtitulo-contato">Seu contato é muito importante</h2>
     </div>
-    <div class="form-container">
-      <h1>Preencha seus dados.</h1>
+    <div class="contato1">
+      <div class="texto">
+        <h1>Me conte sua ideia</h1>
+        <h2>Envie uma mensagem ou um email sobre seu projeto</h2>
+        <a href=""><img height="35px" src="/img/whatsapp-svgrepo-com.svg" alt=""></a>
+        <a href=""><img height="35px" src="/img/linkedin-svgrepo-com.svg" alt=""></a>
+      </div>
+
+      <div class="form-container">
+        <h1>Preencha seus dados.</h1>
+      </div>
     </div>
   </section>
 
