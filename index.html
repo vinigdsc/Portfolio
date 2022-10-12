@@ -31,7 +31,7 @@
 
   <section class="home-section active">
     <div>
-      <h1 class="hero-heading">Web Developer <span class="ponto">&</span><br>Front-End<span class="ponto">.</span></h1>
+      <h1 class="hero-heading">Web Developer <span class="ponto neon">&</span><br>Front-End<span class="ponto">.</span></h1>
       <h2 class="subtitulo animate-character">Vinicius Caetano</h2>
     </div>
     <img src="img/imagem1.jpg" class="home-img" alt="" width="2500" height="1020">
@@ -48,7 +48,7 @@
           <p class="project-info"> Projeto final de um curso de Html e CSS, uma loja de bicicletas elétricas com opções de seguros e formulário para contato</p>
           <div class="project-btn-grp">
             <button class="project-btn github"><a href="https://github.com/vinigdsc/bikcraft">GitHub</a></button>
-            <button class="project-btn live"><a href="https://bikcraft.net/">Veja Online</a></button>
+            <button class="project-btn live"><a href="https://bikcraft.net/"> Veja Online</a></button>
           </div>
         </div>
       </div>
@@ -66,19 +66,19 @@
       <div class="project-card">
         <img src="img/Academia.png" class="project-img" alt="" width="500px">
         <div class="project-content">
-          <h1 class="project-title">Projeto 1</h1>
-          <p class="project-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non unde possimus corporis ducimus ut aspernatur quasi voluptatibus eaque, ullam voluptas id itaque blanditiis! Fugiat sed itaque eligendi omnis deserunt.</p>
+          <h1 class="project-title">Projeto Academia</h1>
+          <p class="project-info"> Uma landing page pra uma academia fictícia, CSS e HTML</p>
           <div class="project-btn-grp">
-            <button class="project-btn github">github repo</button>
-            <button class="project-btn live">see live</button>
+            <button class="project-btn github"><a href="https://github.com/vinigdsc/academia">GitHub</a></button>
+            <button class="project-btn live">Veja Online</button>
           </div>
         </div>
       </div>
       <div class="project-card">
-        <img src="imagem1.jpg" class="project-img" alt="" width="500px">
+        <img src="img/wip.jpg" class="project-img" alt="" width="500px">
         <div class="project-content">
-          <h1 class="project-title">Projeto 1</h1>
-          <p class="project-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut non unde possimus corporis ducimus ut aspernatur quasi voluptatibus eaque, ullam voluptas id itaque blanditiis! Fugiat sed itaque eligendi omnis deserunt.</p>
+          <h1 class="project-title">Em progresso</h1>
+          <p class="project-info"> Reservado para uso futuro</p>
           <div class="project-btn-grp">
             <button class="project-btn github">github repo</button>
             <button class="project-btn live">see live</button>
@@ -176,20 +176,50 @@
 
   <!--Contato-->
   <section class="contact-section">
-    <div class="container">
-      <h1 class="titulo-contato"> Fale comigo<span class="ponto">.</span> </h1>
-      <h2 class="subtitulo-contato">Seu contato é muito importante</h2>
+    <div class="titulo-contato">
+      <h1 class="titulo1">Entre em contato<span class="ponto">.</span></h1>
+      <h2 class="subtitulo1">Sua Mensagem é muito importante</h2>
     </div>
-    <div class="contato1">
-      <div class="texto">
-        <h1>Me conte sua ideia</h1>
-        <h2>Envie uma mensagem ou um email sobre seu projeto</h2>
-        <a href=""><img height="35px" src="/img/whatsapp-svgrepo-com.svg" alt=""></a>
-        <a href=""><img height="35px" src="/img/linkedin-svgrepo-com.svg" alt=""></a>
+    <div id="allContent">
+      <div id="mainContent">
+        <h1 class="primaryHeading">Entre em contato</h1>
+        <div class="inputPair">
+          <label class="inputLabel" for="name">Nome</label>
+          <input class="inputField" type="text" id="name">
+        </div>
+        <div class="inputPair">
+          <label class="inputLabel" for="email">Email</label>
+          <input class="inputField" type="email" id="email">
+        </div>
+        <div class="inputPair">
+          <label class="inputLabel" for="message">Mensagem</label>
+          <textarea class="inputField" type="textbox" id="message" rows="5"></textarea>
+        </div>
+        <div id="buttonCtr">
+          <button type="reset">Reset</button>
+          <button type="submit">Enviar</button>
+        </div>
+        <div class="clear"></div>
       </div>
+      <div id="secondaryContacts">
+        <div id="offline">
+          <h2 class="secondaryHeading">Reach Us Offline</h2>
+          <h3 class="subHeading">Phone</h3>
+          <a class="telephone" href="tel:">(210) 867-5309</a>
+          <h3 class="subHeading">Address</h3>
+          <address>
+            1 Alamo Plaza<br />
+            San Antonio, Texas 78205
+          </address>
+        </div>
+        <div id="social">
+          <h2 class="secondaryHeading">Social Connections</h2>
+          <h3 class="subHeading social2">Social</h3>
+          <a class="twitter" href="https://twitter.com/bobcatred">Whatsapp</a>
+          <a class="linkedin" href="https://www.linkedin.com/pub/louise-jennings/1/a78/55b/">LinkedIn</a>
 
-      <div class="form-container">
-        <h1>Preencha seus dados.</h1>
+        </div>
+
       </div>
     </div>
   </section>
