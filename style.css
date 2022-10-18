@@ -21,7 +21,7 @@ body {
   margin: auto;
   min-height: 100vh;
   background-color: #1b1b1b;
-  font-family: sans-serif;
+  font-family: "roboto";
 }
 
 .navbar {
@@ -234,6 +234,13 @@ body {
   color: #fff;
 }
 
+.project-btn.live.disabled {
+  background: none;
+  border: 3px solid #5e5e5e;
+  color: #5e5e5e;
+  cursor: default;
+}
+
 .project-card:hover {
   border: 1px solid #3cff00;
 }
@@ -301,11 +308,11 @@ body {
 
 .download-cv-btn {
   position: relative;
-  bottom: 20px;
-  left: 50%;
+  bottom: 50px;
+  left: 40%;
   transform: translate(-50%);
   padding: 10px 20px;
-  color: #fff;
+  color: #3cff00;
   border: none;
   font-size: 16px;
   text-transform: capitalize;
@@ -387,6 +394,7 @@ body {
   margin: -80 0;
   position: relative;
   background-color: red;
+  font-size: 20px;
 }
 
 .card:nth-child(even) {
@@ -401,7 +409,7 @@ body {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  border: 5px solid #191919;
+  border: 5px solid #3cff00;
   border-radius: 50%;
 }
 
@@ -424,7 +432,7 @@ body {
   transform: translateY(-50%);
   width: 20px;
   height: 20px;
-  border: 5px solid #191919;
+  border: 5px solid #3cff00;
   border-radius: 50%;
 }
 
@@ -441,19 +449,19 @@ body {
 
 .card:nth-child(2),
 .card:nth-child(2):before {
-  background: #ff4f4f;
+  background: #2c2c2c;
 }
 .card:nth-child(3),
 .card:nth-child(3):before {
-  background: #ffb84f;
+  background: #2c2c2c;
 }
 .card:nth-child(4),
 .card:nth-child(4):before {
-  background: #3dca5c;
+  background: #2c2c2c;
 }
 .card:nth-child(5),
 .card:nth-child(5):before {
-  background: #565252;
+  background: #2c2c2c;
 }
 
 .card:nth-child(6),
@@ -463,8 +471,9 @@ body {
 
 .card-title {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 20px;
+  color: #3cff00;
 }
 
 .ponto {
@@ -563,22 +572,53 @@ textarea {
   float: right;
 }
 
+#buttonCtr :hover {
+  color: #3cff00;
+}
+
 #buttonCtr button {
   font-size: 1.5em;
   padding: 0.5em;
-  background: #26658c;
+  background: #2e2e2e;
   color: #fff;
   border-radius: 12px;
   border: none;
+  cursor: pointer;
+}
+
+.telephone:hover {
+  color: #fff;
+}
+
+.social :hover {
+  color: #fff;
 }
 
 button[type="reset"] {
   margin-right: 0.25em;
 }
 
-.twitter {
+.social p {
+  margin-top: 10px;
+}
+
+.whatsapp {
   display: block;
   background: url(img/whatsapp-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #3cff00;
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
+
+.github {
+  display: block;
+  background: url(img/github-svgrepo-com.svg) top left no-repeat;
   background-size: 25px 25px;
   padding-left: 30px;
   height: 25px;
@@ -593,6 +633,19 @@ button[type="reset"] {
 .linkedin {
   display: block;
   background: url(img/linkedin-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #3cff00;
+  margin-left: 1em;
+}
+
+.instagram {
+  display: block;
+  background: url(img/instagram-svgrepo-com.svg) top left no-repeat;
   background-size: 25px 25px;
   padding-left: 30px;
   height: 25px;
