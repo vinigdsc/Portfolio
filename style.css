@@ -274,21 +274,33 @@ body {
 }
 
 .about-info {
+  margin-left: auto;
+  margin-right: auto;
   color: #fff;
   opacity: 0.6;
   font-size: 20px;
   line-height: 40px;
 }
 
+.sobre h1 {
+  line-height: 80px;
+  font-size: 30px;
+  color: #3cff00;
+}
+
+.sobre {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
 .about-img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
   border-radius: 20px;
 }
 
 .download-cv-btn {
-  position: absolute;
+  position: relative;
   bottom: 20px;
   left: 50%;
   transform: translate(-50%);
