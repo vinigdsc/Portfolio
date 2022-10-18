@@ -130,7 +130,6 @@ body {
   top: 0;
   right: 0;
   height: 100vh;
-
   object-fit: cover;
   opacity: 0.2;
 }
@@ -138,7 +137,7 @@ body {
 .project-section {
   width: 100%;
   min-height: 100vh;
-  padding: 150px 100px 100px;
+  padding-top: 100px;
   position: fixed;
   top: 0;
   transition: 1s;
@@ -146,7 +145,7 @@ body {
 }
 
 .project-heading {
-  font-size: 90px;
+  font-size: 50px;
   background: #2c2c2c;
   text-transform: uppercase;
   text-align: center;
@@ -159,13 +158,17 @@ body {
 }
 
 .project-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+  gap: 30px;
 }
 
 .project-card {
-  height: 400px;
+  height: 350px;
   position: relative;
 }
 
@@ -189,10 +192,10 @@ body {
 }
 
 .project-title {
-  font-size: 50px;
-  text-transform: capitalize;
+  font-size: 30px;
+  text-transform: uppercase;
   text-align: center;
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .project-info {
@@ -221,7 +224,7 @@ body {
 .project-btn {
   height: 40px;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
   background: #000;
   color: #fff;
@@ -273,7 +276,7 @@ body {
   width: 100%;
   display: grid;
   grid-template-columns: 30% 65%;
-  gap: 40px;
+  gap: 30px;
 }
 
 .about-img-container {
@@ -290,8 +293,8 @@ body {
 }
 
 .sobre h1 {
-  line-height: 80px;
-  font-size: 30px;
+  line-height: 70px;
+  font-size: 25px;
   color: #3cff00;
 }
 
@@ -299,6 +302,10 @@ body {
   color: #fff;
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
+}
+
+.sobre ul {
+  list-style: none;
 }
 
 .about-img {
@@ -327,12 +334,12 @@ body {
 
 .skill-section {
   position: relative;
-  margin: 100px 0;
+  margin: 80px 0;
 }
 
 .heading {
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   color: #fff;
   font-weight: 400;
   margin-bottom: 100px;
@@ -359,8 +366,8 @@ body {
 }
 
 .skill-name {
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 25px;
+  font-weight: 400;
   text-align: center;
   text-transform: capitalize;
   margin: 30px 0 20px;
@@ -470,7 +477,7 @@ body {
 }
 
 .card-title {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   margin-bottom: 20px;
   color: #3cff00;
@@ -525,10 +532,13 @@ body {
 }
 
 .titulo1 {
-  font-size: 100px;
+  font-size: 80px;
+  font-weight: 600;
 }
 
 .subtitulo1 {
+  font-size: 25px;
+  font-weight: 400;
 }
 
 .primaryHeading {
@@ -557,7 +567,7 @@ body {
 
 .inputField {
   border: 3px solid #3cff00;
-  border-radius: 6px;
+  border-radius: 3px;
   font-size: 2em;
   background: #2c2c2c;
   margin-bottom: 1em;
@@ -616,7 +626,7 @@ button[type="reset"] {
   margin-left: 1em;
 }
 
-.github {
+.github2 {
   display: block;
   background: url(img/github-svgrepo-com.svg) top left no-repeat;
   background-size: 25px 25px;
