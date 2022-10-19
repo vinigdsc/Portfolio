@@ -16,6 +16,7 @@ a {
 }
 
 body {
+  height: auto;
   width: 100%;
   display: block;
   margin: auto;
@@ -23,8 +24,8 @@ body {
   background-color: #1b1b1b;
   font-family: "roboto";
 }
-
 .navbar {
+  height: 70px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -34,7 +35,6 @@ body {
   align-items: center;
   z-index: 9;
   background-color: #222222;
-  font-family: roboto, sans-serif;
 }
 
 .link-group {
@@ -44,21 +44,21 @@ body {
 
 .link a {
   color: #fff;
-  opacity: 0.7;
+  opacity: 0.6;
   text-decoration: none;
   text-transform: capitalize;
-  padding: 10px 30px;
+  padding: 10px 20px;
   margin: 0 20px;
-  line-height: 80px;
+  line-height: 70px;
   transition: 0.5s;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .link a:hover,
 .link.active a {
   opacity: 1;
   color: #3cff00;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 /* home */
@@ -81,7 +81,7 @@ body {
   position: fixed;
   top: 0;
   opacity: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .animate-character {
@@ -112,7 +112,7 @@ body {
 
 .hero-heading {
   color: #fff;
-  font-size: 100px;
+  font-size: 90px;
   text-transform: capitalize;
   font-family: Montserrat, sans-serif;
   font-weight: 600;
@@ -120,7 +120,7 @@ body {
 
 .subtitulo {
   color: #3cff00;
-  font-size: 55px;
+  font-size: 45px;
   font-weight: 300;
   font-family: "Caveat", cursive;
 }
@@ -140,7 +140,7 @@ body {
   padding-top: 100px;
   position: fixed;
   top: 0;
-  transition: 1s;
+  transition: 0.5s;
   opacity: 0;
 }
 
@@ -161,10 +161,11 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin-left: 20px;
-  margin-right: 20px;
-  gap: 30px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 40px;
 }
 
 .project-card {
@@ -192,7 +193,7 @@ body {
 }
 
 .project-title {
-  font-size: 30px;
+  font-size: 25px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
@@ -200,31 +201,26 @@ body {
 
 .project-info {
   margin: 40px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 30px;
   text-align: center;
 }
 
 .project-btn-grp {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
 }
 
 .project-btn a {
   display: inline-block;
   position: relative;
-  z-index: 1;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-right: 180px;
-  padding-left: 180px;
 }
 
 .project-btn {
   height: 40px;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 14px;
   border: none;
   background: #000;
   color: #fff;
@@ -269,7 +265,7 @@ body {
   position: fixed;
   top: 0;
   opacity: 0;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .about {
@@ -288,19 +284,19 @@ body {
   margin-right: auto;
   color: #fff;
   opacity: 0.6;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 40px;
 }
 
 .sobre h1 {
   line-height: 70px;
-  font-size: 25px;
+  font-size: 20px;
   color: #3cff00;
 }
 
 .sobre {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -362,11 +358,11 @@ body {
 .skill-img {
   display: block;
   margin: auto;
-  height: 200px;
+  height: 130px;
 }
 
 .skill-name {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 400;
   text-align: center;
   text-transform: capitalize;
@@ -376,7 +372,7 @@ body {
 .skill-info {
   text-align: center;
   opacity: 0.5;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
 }
 
@@ -401,7 +397,7 @@ body {
   margin: -80 0;
   position: relative;
   background-color: red;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .card:nth-child(even) {
@@ -477,8 +473,8 @@ body {
 }
 
 .card-title {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
   margin-bottom: 20px;
   color: #3cff00;
 }
@@ -492,11 +488,8 @@ body {
   position: absolute;
   top: 0;
   opacity: 0;
-  transition: 1s;
   padding: 100px 150px;
-  height: 100vh;
   display: grid;
-  gap: 50px;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
@@ -520,7 +513,7 @@ body {
   padding: 1.5em;
   margin-top: 6em;
   border-radius: 12px;
-  border: 6px solid #3cff00;
+  border: 3px solid #3cff00;
 }
 
 .titulo-contato {
@@ -532,7 +525,7 @@ body {
 }
 
 .titulo1 {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -543,30 +536,30 @@ body {
 
 .primaryHeading {
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 30px;
   margin-bottom: 0.5em;
 }
 
 .secondaryHeading {
   font-weight: bold;
-  font-size: 1.75em;
+  font-size: 20px;
   margin-bottom: 0.5em;
 }
 
 .subHeading {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 15px;
   margin-bottom: 0.25em;
 }
 
 .inputLabel {
   display: block;
   margin-bottom: 0.5em;
-  font-size: 1.5em;
+  font-size: 15px;
 }
 
 .inputField {
-  border: 3px solid #3cff00;
+  border: 2px solid #3cff00;
   border-radius: 3px;
   font-size: 2em;
   background: #2c2c2c;
@@ -587,7 +580,7 @@ textarea {
 }
 
 #buttonCtr button {
-  font-size: 1.5em;
+  font-size: 15px;
   padding: 0.5em;
   background: #2e2e2e;
   color: #fff;
@@ -609,7 +602,7 @@ button[type="reset"] {
 }
 
 .social p {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .whatsapp {
@@ -662,6 +655,11 @@ button[type="reset"] {
   margin-left: 1em;
 }
 
+#offline {
+  display: block;
+  height: 130px;
+}
+
 #offline address {
   font-style: normal;
   margin: 0 0 1.25em 1em;
@@ -671,7 +669,7 @@ button[type="reset"] {
   display: block;
   text-decoration: none;
   color: #3cff00;
-  margin: 0 0 0.75em 1em;
+  margin-top: 20px;
 }
 
 .social2 {
@@ -745,3 +743,5 @@ button[type="reset"] {
 }
 
 */
+
+/*Responsivo*/

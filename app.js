@@ -13,7 +13,7 @@ links.forEach((link, i) => {
       setTimeout(() => {
         activeLink = i;
         sections[i].classList.add("active");
-      }, 1000);
+      }, 500);
     }
   });
 });
