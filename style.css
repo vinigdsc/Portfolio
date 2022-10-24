@@ -277,6 +277,8 @@ body {
 
 .about-img-container {
   position: relative;
+  width: 400px;
+  height: 600px;
 }
 
 .about-info {
@@ -312,7 +314,7 @@ body {
 .download-cv-btn {
   position: relative;
   bottom: 50px;
-  left: 40%;
+  left: 50%;
   transform: translate(-50%);
   padding: 10px 20px;
   color: #3cff00;
