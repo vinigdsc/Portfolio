@@ -99,8 +99,8 @@
   <section class="about-section">
     <div class="about">
       <div class="about-img-container">
-        <img src="/img/wip.jpg" class="about-img" alt="" width="500px" height="600px">
-        <button class="download-cv-btn"><a target="_blank" href="img/curriculo-atualizado.pdf" download>Download Curriculo</a></button>
+        <img src="/img/vinicius.png" class="about-img" alt="" width="400px" height="600px">
+        <button class="download-cv-btn"><a target="_blank" href="/img/Curriculo Vinicius.pdf" download>Download Curriculo</a></button>
       </div>
       <div class="sobre">
         <div>
@@ -177,7 +177,7 @@
         <div class="card">
           <div class="card-body">
             <h1 class="card-title">Curso JavaScript - Origamid (em progresso) </h1>
-            <p class="card-detail">Curso de JavaScript completo desde o basico até o avançado, atualmente está em progresso</p>
+            <p class="card-detail">Curso de JavaScript completo do basico até o avançado, atualmente está em progresso</p>
           </div>
         </div>
         <div class="card">
@@ -187,7 +187,7 @@
           </div>
         </div>
       </div>
-
+    </div>
   </section>
 
   <!--Contato-->
@@ -199,23 +199,25 @@
     <div id="allContent">
       <div id="mainContent">
         <h1 class="primaryHeading">Contato</h1>
-        <div class="inputPair">
-          <label class="inputLabel" for="name">Nome</label>
-          <input class="inputField" type="text" id="name">
-        </div>
-        <div class="inputPair">
-          <label class="inputLabel" for="email">Email</label>
-          <input class="inputField" type="email" id="email">
-        </div>
-        <div class="inputPair">
-          <label class="inputLabel" for="message">Mensagem</label>
-          <textarea class="inputField" type="textbox" id="message" rows="5"></textarea>
-        </div>
-        <div id="buttonCtr">
-          <button type="reset">Reset</button>
-          <button type="submit">Enviar</button>
-        </div>
-        <div class="clear"></div>
+        <form action="mailto:viniciusgcae@gmail.com" method="POST" enctype="text/plain">
+          <div class="inputPair">
+            <label class="inputLabel" for="name">Nome</label>
+            <input class="inputField" type="text" id="name">
+          </div>
+          <div class="inputPair">
+            <label class="inputLabel" for="email">Email</label>
+            <input class="inputField" type="email" id="email">
+          </div>
+          <div class="inputPair">
+            <label class="inputLabel" for="message">Mensagem</label>
+            <textarea class="inputField" type="textbox" id="message" rows="5"></textarea>
+          </div>
+          <div id="buttonCtr">
+            <button type="reset">Reset</button>
+            <button id="submitform" type="submit">Enviar</button>
+          </div>
+          <div class="clear"></div>
+        </form>
       </div>
       <div id="secondaryContacts">
         <div id="offline">
@@ -234,10 +236,13 @@
         </div>
       </div>
     </div>
+
+
   </section>
 
   <script src="app.js"></script>
   <script src="https://kit.fontawesome.com/3b50787ee3.js" crossorigin="anonymous"></script>
 </body>
+
 
 </html>
