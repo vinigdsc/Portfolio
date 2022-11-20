@@ -1,0 +1,74 @@
+.home-section.active,
+.project-section.active,
+.about-section.active,
+.contact-section.active {
+  position: relative;
+  opacity: 1;
+  z-index: 8;
+}
+
+.home-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.animate-character {
+  background-image: linear-gradient(
+    -225deg,
+    #3cff00 5%,
+    #eeff00 29%,
+    #00f7ff 67%,
+    #3a9e00 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.hero-heading {
+  color: #fff;
+  font-size: 90px;
+  text-transform: capitalize;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.hero-div {
+  position: relative;
+  margin: 0 150px;
+}
+
+.subtitulo {
+  color: #3cff00;
+  font-size: 45px;
+  font-weight: 300;
+  font-family: "Caveat", cursive;
+}
+
+.home-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  object-fit: cover;
+  opacity: 0.2;
+}

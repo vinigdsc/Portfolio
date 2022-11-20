@@ -1,0 +1,121 @@
+.project-section {
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 100px;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.project-heading {
+  font-size: 50px;
+  background: #2c2c2c;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 8px transparent;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  gap: 40px;
+}
+
+.project-card {
+  height: 350px;
+  position: relative;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.project-content {
+  position: relative;
+  padding: 40px;
+  color: #fff;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.project-title {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+
+.project-info {
+  margin: 40px;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.project-btn-grp {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.project-btn a {
+  display: inline-block;
+  position: relative;
+}
+
+.project-btn {
+  height: 40px;
+  text-transform: capitalize;
+  font-size: 14px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.project-btn.live {
+  background: none;
+  border: 3px solid #3cff00;
+  color: #fff;
+}
+
+.project-btn.live.disabled {
+  background: none;
+  border: 3px solid #5e5e5e;
+  color: #5e5e5e;
+  cursor: default;
+}
+
+.project-card:hover {
+  border: 1px solid #3cff00;
+}
+
+.project-card:hover .project-img {
+  filter: blur(20px) opacity(30%);
+}
+
+.project-card:hover .project-content {
+  opacity: 1;
+}
+
+.project-btn:hover {
+  color: #3cff00;
+}

@@ -1,0 +1,77 @@
+@media (max-width: 1700px) {
+  .home-section {
+  }
+  .about {
+    margin: 0px;
+    display: grid;
+    position: relative;
+    justify-content: center;
+  }
+  .sobre {
+    margin-left: 4rem;
+    position: relative;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .home-section {
+    justify-content: center;
+    font-size: 60px;
+  }
+
+  .about-img-container img {
+    width: 300px;
+    height: 500px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+  .project-btn.live {
+    border: 1px solid;
+  }
+
+  .project-btn.live.disabled {
+    border: 1px solid;
+  }
+
+  .project-info {
+    font-size: 15px;
+  }
+
+  .sobre {
+  }
+}
+
+@media (max-width: 1000px) {
+  .sobre {
+    margin-left: 8rem;
+  }
+  .titulo-contato {
+    align-self: center;
+  }
+}
+
+@media (max-width: 880px) {
+  .project-heading {
+    font-size: 40px;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .skills-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card:nth-child(even):before,
+  .card:nth-child(even)::after,
+  .card:nth-child(odd):before,
+  .card:nth-child(odd)::after {
+    display: none;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

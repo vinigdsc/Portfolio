@@ -1,0 +1,195 @@
+.contact-section {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  padding: 100px 150px;
+  display: grid;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+#allContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#mainContent {
+  float: left;
+  vertical-align: top;
+  color: #fff;
+  padding: 1.5em;
+}
+
+#secondaryContacts {
+  width: 800px;
+  background: #2c2c2c;
+  padding: 1.5em;
+  margin-top: 6em;
+  border-radius: 12px;
+  border: 3px solid #3cff00;
+}
+
+.titulo-contato {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+.titulo1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.subtitulo1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.primaryHeading {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0.5em;
+}
+
+.secondaryHeading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0.5em;
+}
+
+.subHeading {
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 0.25em;
+}
+
+.inputLabel {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 15px;
+}
+
+.inputField {
+  border: 2px solid #3cff00;
+  border-radius: 3px;
+  font-size: 2em;
+  background: #2c2c2c;
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+#buttonCtr {
+  float: right;
+}
+
+#buttonCtr :hover {
+  color: #3cff00;
+}
+
+#buttonCtr button {
+  font-size: 15px;
+  padding: 0.5em;
+  background: #2e2e2e;
+  color: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.telephone:hover {
+  color: #fff;
+}
+
+.social :hover {
+  color: #fff;
+}
+
+button[type="reset"] {
+  margin-right: 0.25em;
+}
+
+.social p {
+  margin-top: 15px;
+}
+
+.whatsapp {
+  display: block;
+  background: url(img/whatsapp-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #3cff00;
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
+
+.github2 {
+  display: block;
+  background: url(img/github-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #3cff00;
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
+
+.linkedin {
+  display: block;
+  background: url(img/linkedin-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #3cff00;
+  margin-left: 1em;
+}
+
+.instagram {
+  display: block;
+  background: url(img/instagram-svgrepo-com.svg) top left no-repeat;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  height: 25px;
+  line-height: 25px;
+  text-decoration: none;
+  color: #3cff00;
+  margin-left: 1em;
+}
+
+#offline {
+  display: block;
+  height: 130px;
+}
+
+#offline address {
+  font-style: normal;
+  margin: 0 0 1.25em 1em;
+}
+
+.telephone {
+  display: block;
+  text-decoration: none;
+  color: #3cff00;
+  margin-top: 20px;
+}
+
+.social2 {
+  display: none;
+}
+
+.clear {
+  float: none;
+  clear: both;
+}
